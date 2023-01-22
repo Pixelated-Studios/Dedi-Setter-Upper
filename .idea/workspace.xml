@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a5754-00d4-47c5-bed2-0f784ccfae13" name="Changes" comment="Create Repo">
+    <list default="true" id="836a5754-00d4-47c5-bed2-0f784ccfae13" name="Changes" comment="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager">
+      <change afterPath="$PROJECT_DIR$/softwareinstaller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systemupdate.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
@@ -59,7 +61,7 @@
       <workItem from="1674156980090" duration="1256000" />
       <workItem from="1674254151995" duration="100000" />
       <workItem from="1674338364029" duration="377000" />
-      <workItem from="1674373340566" duration="1251000" />
+      <workItem from="1674373340566" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="Create Repo">
       <created>1674157012839</created>
@@ -68,7 +70,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674157012839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bring Workspace up-to-date, and add the Rubocop, and Open3 gems">
+      <created>1674374626539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674374626540</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bring Workspace up-to-date">
+      <created>1674374656257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674374656257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager">
+      <created>1674374699990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674374699990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +111,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create Repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Repo" />
+    <MESSAGE value="Bring Workspace up-to-date, and add the Rubocop, and Open3 gems" />
+    <MESSAGE value="Bring Workspace up-to-date" />
+    <MESSAGE value="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager" />
   </component>
 </project>
