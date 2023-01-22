@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836a5754-00d4-47c5-bed2-0f784ccfae13" name="Changes" comment="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager">
-      <change afterPath="$PROJECT_DIR$/softwareinstaller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systemupdate.rb" afterDir="false" />
+    <list default="true" id="836a5754-00d4-47c5-bed2-0f784ccfae13" name="Changes" comment="made some changes to the way we are handling errors in the software installer, and did some work to make the TUI more optimized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/starter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softwareinstaller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/softwareinstaller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemupdate.rb" beforeDir="false" afterPath="$PROJECT_DIR$/systemupdate.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <workItem from="1674156980090" duration="1256000" />
       <workItem from="1674254151995" duration="100000" />
       <workItem from="1674338364029" duration="377000" />
-      <workItem from="1674373340566" duration="4348000" />
+      <workItem from="1674373340566" duration="6522000" />
     </task>
     <task id="LOCAL-00001" summary="Create Repo">
       <created>1674157012839</created>
@@ -91,7 +88,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674374699990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add curses gem and bring workspace up to date">
+      <created>1674377958122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674377958122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create TUI software installer in it's own class, and move the system updater to it's own class">
+      <created>1674377995849</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674377995849</updated>
+    </task>
+    <task id="LOCAL-00007" summary="separate the linux distro check into it's own class">
+      <created>1674379937795</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674379937795</updated>
+    </task>
+    <task id="LOCAL-00008" summary="made some changes to the way we are handling errors in the software installer, and did some work to make the TUI more optimized">
+      <created>1674379981604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674379981604</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +139,10 @@
     <MESSAGE value="Bring Workspace up-to-date, and add the Rubocop, and Open3 gems" />
     <MESSAGE value="Bring Workspace up-to-date" />
     <MESSAGE value="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="create method for detecting linux distro, a method for checking the running package manager, and a method for updating the system using the detected package manager" />
+    <MESSAGE value="Add curses gem and bring workspace up to date" />
+    <MESSAGE value="Create TUI software installer in it's own class, and move the system updater to it's own class" />
+    <MESSAGE value="separate the linux distro check into it's own class" />
+    <MESSAGE value="made some changes to the way we are handling errors in the software installer, and did some work to make the TUI more optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some changes to the way we are handling errors in the software installer, and did some work to make the TUI more optimized" />
   </component>
 </project>
